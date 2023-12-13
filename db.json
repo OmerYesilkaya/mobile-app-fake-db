@@ -1,31 +1,89 @@
 {
-    "posts": [
+    "accounts": [
         {
             "id": 1,
-            "title": "Post 1"
+            "name": "Lisa",
+            "age": 5,
+            "language": "en"
         },
         {
             "id": 2,
-            "title": "Post 2"
+            "name": "Edward",
+            "age": 7,
+            "language": "ge"
         },
         {
             "id": 3,
-            "title": "Post 3"
+            "name": "Salih",
+            "age": 4,
+            "language": "tr"
         }
     ],
-    "comments": [
+    "stories": [
         {
             "id": 1,
-            "body": "some comment",
-            "postId": 1
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Squirrel's Ambition",
+            "questions": [
+                { "id": 1, "text": "Did the squirrel did the right thing?" },
+                { "id": 2, "text": "How many nuts did the squirrel collect?" }
+            ],
+            "isFavorite": false,
+            "isLiked": true
         },
         {
             "id": 2,
-            "body": "some comment",
-            "postId": 1
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Turtle's Ambition",
+            "questions": [
+                { "id": 1, "text": "Did the turtle did the right thing?" },
+                { "id": 2, "text": "How much grass did the turtle eat?" }
+            ],
+            "isFavorite": false,
+            "isLiked": true
+        },
+        {
+            "id": 3,
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Frog's Ambition",
+            "questions": [
+                { "id": 1, "text": "Did the frog did the right thing?" },
+                { "id": 2, "text": "How many flies did the frog collect?" }
+            ],
+            "isFavorite": true,
+            "isLiked": true
         }
     ],
-    "profile": {
-        "name": "typicode"
+    "favorites": [
+        {
+            "id": 1,
+            "storyId": 3,
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Frog's Ambition"
+        }
+    ],
+    "history": [
+        {
+            "id": 1,
+            "storyId": 2,
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Turtle's Ambition"
+        },
+        {
+            "id": 2,
+            "storyId": 3,
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Frog's Ambition"
+        },
+        {
+            "id": 3,
+            "storyId": 3,
+            "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
+            "title": "Turtle's Ambition"
+        }
+    ],
+    "me": {
+        "id": 1,
+        "name": "Edward"
     }
 }
