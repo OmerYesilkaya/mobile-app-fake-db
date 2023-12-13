@@ -1,5 +1,5 @@
 {
-    "accounts": [
+    "account": [
         {
             "id": 1,
             "name": "Lisa",
@@ -19,7 +19,7 @@
             "language": "tr"
         }
     ],
-    "stories": [
+    "story": [
         {
             "id": 1,
             "image": "https://img.freepik.com/premium-vector/minimalist-squirrel-with-tail-letter-f-logo-design_341408-138.jpg?w=2000",
@@ -54,7 +54,7 @@
             "isLiked": true
         }
     ],
-    "favorites": [
+    "favorite": [
         {
             "id": 1,
             "storyId": 3,
